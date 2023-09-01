@@ -1,4 +1,4 @@
-# FT_S2A
+# FT_S2A (Finetune sequence-to-activity models)
 
 
 # Data 

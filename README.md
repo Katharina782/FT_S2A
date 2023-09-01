@@ -28,6 +28,9 @@ To train the model use [basenji_training_res.py](https://github.com/Katharina782
 
 To compute the correlations of gene expression predictions and observations at the gene TSS use [cage_correlations_basenji.py](https://github.com/Katharina782/FT_S2A/tree/master/basenji2_torch/cage_correlations_basenji.py).
 
+Both Basenji2` and Basenji2`` are compared with each other, the original Enformer model and the small Enformer model here: 
+[comparison_correlation_across_positions.ipynb](https://github.com/Katharina782/FT_S2A/blob/master/enformer/comparison_correlation_across_positions.ipynb)
+[comparison_cage_correlation_tss.ipynb](https://github.com/Katharina782/FT_S2A/blob/master/enformer/comparison_cage_correlation_tss.ipynb)
 
 # Fine-tuning
 
@@ -42,7 +45,7 @@ The fine-tuned models are evaluated by computing correlation across all position
 * For models fine-tuned just on ATAC-seq: [basenji_on_gastrulation_atac_finetune.ipynb](https://github.com/Katharina782/FT_S2A/tree/master/basenji2_torch/basenji_on_gastrulation_atac_finetune.ipynb)
 * For models fine-tuned just on RNA-seq and jointly on RNA- & ATAC-seq: [basenji_on_gastrulation_join_finetune.ipynb](https://github.com/Katharina782/FT_S2A/tree/master/basenji2_torch/basenji_on_gastrulation_join_finetune.ipynb)
 
-# Ridge regression predcitions
+# Ridge regression predictions
 
 A ridge regression model was fit to the orginal Basenji2 output tracks for mouse. The aim was to predict gene expression for mouse gastrulation cell types as a linear combination of the CAGE output tracks. [ridge_regression_encode.ipynb](https://github.com/Katharina782/FT_S2A/tree/master/basenji2_torch/ridge_regression_encode.ipynb)
 

@@ -5,6 +5,7 @@
 
 The data set used is the same as in [Kelley, PLOS Computational Biology, 2020](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008050) and can be downloaded from [google cloud storage](https://console.cloud.google.com/storage/browser/basenji_barnyard/data).
 
+You can convert the tensorflow dataloader to a pytorch dataloader using [save_basenji2_as_torch.py](https://github.com/Katharina782/FT_S2A/tree/master/enformer/save_basenji2_as_torch.py)
 
 # Basenji2 in Pytorch 
 

@@ -13,7 +13,7 @@ You can convert the tensorflow dataloader to a pytorch dataloader using [save_ba
 
 This data set was published by [Argelaguet et al., 2022](https://www.biorxiv.org/content/10.1101/2022.06.15.496239v1.full) and can be downloaded here: [10xmultiome](https://github.com/rargelaguet/mouse_organogenesis_10x_multiome_publication)
 
-# Basenji2 in Pytorch 
+# Basenji2 in PyTorch 
 
 ## Pre-Training
 

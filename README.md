@@ -1,11 +1,17 @@
 # FT_S2A
 
 
-# Basenji2 data set
+# Data 
+
+## Basenji2 data set
 
 The data set used is the same as in [Kelley, PLOS Computational Biology, 2020](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008050) and can be downloaded from [google cloud storage](https://console.cloud.google.com/storage/browser/basenji_barnyard/data).
 
 You can convert the tensorflow dataloader to a pytorch dataloader using [save_basenji2_as_torch.py](https://github.com/Katharina782/FT_S2A/tree/master/enformer/save_basenji2_as_torch.py)
+
+## snRNA-seq & snATAC-seq data
+
+This data set was published by [Argelaguet et al., 2022](https://www.biorxiv.org/content/10.1101/2022.06.15.496239v1.full) and can be downloaded here: [10xmultiome](https://github.com/rargelaguet/mouse_organogenesis_10x_multiome_publication)
 
 # Basenji2 in Pytorch 
 
@@ -35,8 +41,8 @@ Both Basenji2` and Basenji2`` are compared with each other, the original Enforme
 
 # Fine-tuning
 
-To finetune the original model use [finetuning_gastrulation.py]](https://github.com/Katharina782/FT_S2A/tree/master/basenji2_torch/finetuning_gastrulation.py).
 
+To finetune the original model use [finetuning_gastrulation.py](https://github.com/Katharina782/FT_S2A/tree/master/basenji2_torch/finetuning_gastrulation.py).
 
 ## Evaluations of models
 

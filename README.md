@@ -15,7 +15,7 @@ You can convert the tensorflow dataloader to a pytorch dataloader using [save_ba
 
 This model [basenji_architecturel.py](https://github.com/Katharina782/FT_S2A/tree/master/basenji2_torch/basenji_architecture.py) has a bug, namely the activation function is applied before the residual connection. This leads to decreased performance. So far all fine-tuning experiments were performed with this model. 
 
-To train the model use `basenji_training.py`.
+To train the model use [basenji_training.py](https://github.com/Katharina782/FT_S2A/blob/master/basenji2_torch/basenji_training.py).
 
 
 ### Basenji2''
